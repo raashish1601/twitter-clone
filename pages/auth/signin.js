@@ -4,7 +4,7 @@ export default function Signin({ providers }) {
   return (
     <div className="flex justify-center mt-20 space-x-4">
       <img
-        src="https://img.freepik.com/free-vector/big-tree-isolated-cartoon_1308-111956.jpg?w=2000"
+        src="https://img.freepik.com/free-vector/big-https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/en/twitter-tips/desktop-assets/ch-01/ch12findphone.png.twimg.1920.png-isolated-cartoon_1308-111956.jpg?w=2000"
         alt="twitter image inside a phone"
         className="hidden object-cover md:w-[340px]  md:inline-flex"
       />
@@ -17,7 +17,7 @@ export default function Signin({ providers }) {
               alt="twitter logo"
             />
             <p className="text-center text-sm italic my-20 font-bold">
-              Created by Ankit
+              Created by Raashish
             </p>
             <button
               // onClick={onGoogleClick}
