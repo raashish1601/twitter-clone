@@ -10,13 +10,12 @@ export default NextAuth({
     }),
     // ...add more providers here
   ],
-
   pages: {
     signIn: "/auth/signin",
   },
 
   secret: process.env.SECRET,
-
+  // making twitter handle using username from session
   callbacks: {
     async session({ session, token }) {
       session.user.username = session.user.name
